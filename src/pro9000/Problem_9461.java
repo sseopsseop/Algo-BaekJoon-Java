@@ -24,8 +24,7 @@ public class Problem_9461 {
 		
 		// 출력
 		for(int i = 1; i <= T; ++i) {
-			System.out.println();
-			System.out.println();
+			System.out.println(padovan[Integer.parseInt(br.readLine())]);
 		}
 		
 		br.close();
