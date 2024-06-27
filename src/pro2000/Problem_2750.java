@@ -16,6 +16,7 @@ public class Problem_2750 {
 			sortArr[i] = Integer.parseInt(br.readLine());
 		}
 		
+//		삽입정렬
 		for(int i = 0; i < n; ++i) {
 			for(int j = i+1; j < n; ++j) {
 				if(sortArr[i] > sortArr[j]) {
