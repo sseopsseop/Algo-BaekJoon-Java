@@ -30,7 +30,7 @@ public class Problem_1181 {
 			}
 		}
 		
-		System.out.println(res);
+		System.out.println(res);	
 		br.close();
 	}
 	
